@@ -43,13 +43,13 @@ git clone https://github.com/1akin1/2048-ai-expectimax.git
 ```
 Navigate into the project directory:
 ```bash
-cd 2048-ai-game
+cd 2048-ai-expectimax
 ```
 
 Run the game:
 
 ```bash
-python main.py
+python 2048.py
 ```
 
 Use the arrow keys to play manually, or press the spacebar to toggle AI mode.
