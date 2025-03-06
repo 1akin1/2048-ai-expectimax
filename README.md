@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/e823a288-368c-4df7-9f0c-349647d3dc3e)# 2048 Game with AI Mode
+# 2048 Game with AI Mode
 
 This is a Python implementation of the popular "2048" game with an added AI mode using basic decision-making algorithms. The game features manual controls for the player and an option to enable AI that automatically makes moves.
 
