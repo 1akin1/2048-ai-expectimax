@@ -1,4 +1,4 @@
-# 2048 Game with AI Mode
+![image](https://github.com/user-attachments/assets/e823a288-368c-4df7-9f0c-349647d3dc3e)# 2048 Game with AI Mode
 
 This is a Python implementation of the popular "2048" game with an added AI mode using basic decision-making algorithms. The game features manual controls for the player and an option to enable AI that automatically makes moves.
 
@@ -34,25 +34,24 @@ If you don't have Pygame installed, you can install it using `pip`:
 
 ```bash
 pip install pygame
+```
 How to Run
 Clone this repository to your local machine:
 
-bash
-Copy
-Edit
+```bash
 git clone https://github.com/1akin1/2048-ai-expectimax.git
+```
 Navigate into the project directory:
-
-bash
-Copy
-Edit
+```bash
 cd 2048-ai-game
+```
+
 Run the game:
 
-bash
-Copy
-Edit
+```bash
 python main.py
+```
+
 Use the arrow keys to play manually, or press the spacebar to toggle AI mode.
 
 Key Bindings
