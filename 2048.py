@@ -499,7 +499,7 @@ def draw_grid(game):
     ai_button_rect = pygame.Rect(WIDTH - 180, 20, 160, 60)
     pygame.draw.rect(screen, (60, 64, 72), ai_button_rect, border_radius=10)
     ai_label = small_font.render("AI MODE", True, (171, 178, 191))
-    ai_status = font.render("ON" if use_ai else "OFF", True, 
+    ai_status = small_font.render("ON" if use_ai else "OFF", True, 
                           (152, 195, 121) if use_ai else (224, 108, 117))
     screen.blit(ai_label, (ai_button_rect.centerx - ai_label.get_width()//2, ai_button_rect.y + 10))
     screen.blit(ai_status, (ai_button_rect.centerx - ai_status.get_width()//2, ai_button_rect.y + 30))
@@ -525,7 +525,7 @@ def draw_grid(game):
     score_bg = pygame.Rect(20, 20, 160, 60)
     pygame.draw.rect(screen, (60, 64, 72), score_bg, border_radius=10)
     score_label = small_font.render("SCORE", True, (171, 178, 191))
-    score_text = font.render(f"{game.score}", True, (220, 223, 228))
+    score_text = small_font.render(f"{game.score}", True, (220, 223, 228))  # Changed font to small_font for smaller text
     screen.blit(score_label, (score_bg.centerx - score_label.get_width()//2, score_bg.y + 10))
     screen.blit(score_text, (score_bg.centerx - score_text.get_width()//2, score_bg.y + 30))
     
